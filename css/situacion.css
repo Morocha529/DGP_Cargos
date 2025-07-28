@@ -1,0 +1,52 @@
+.container{
+    margin-top: 0px;
+    padding: 0px 70px 0px 70px!important;
+ }
+ 
+ #tabla-html thead th{
+     background-color: #1c2e51;
+     color:#ffffff;
+     text-align:center;
+     padding-left: 10px;
+ }
+ #tabla-html > tbody > tr > td.my-padding {
+    padding-left: 20px 
+ }
+ #tabla-html>tbody>tr>td{  
+   text-align: start;
+   padding-left: 20px;
+ }
+ #tabla-html>tbody>tr>td.apell_nomb_class{  
+   text-align: center
+   /*padding: 7px 0px 7px 30px;*/
+ }
+ table.dataTable thead th, table.dataTable tbody td {
+    text-align:left
+ }
+ .navbar-collapse {
+    flex-grow: 0;
+    margin-left: 15px;
+ }
+ 
+.navbar > .container-fluid {
+    justify-content: space-between;
+    margin-right: 50px;
+}
+ 
+ #check_historico{
+    width:1.2rem;
+    height:1.2rem;
+}
+  .col.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }
+   .col.form-group>input, .col.form-group>label{
+    margin-left:10px;
+   }
+   form{
+    background-color: bisque;
+   }
+

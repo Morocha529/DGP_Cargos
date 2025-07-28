@@ -1,0 +1,50 @@
+
+/*Modal*/
+div.input-container {
+    width: 100%; 
+    position: relative;
+    top: 50px;
+    margin-bottom: 25px;
+    }
+    .label-mueve {
+    color: #7F8C8D;
+    position: absolute; 
+    cursor: text;
+    transform: translateY(-25px);
+    transition: transform 0.3s ease;
+    left: 0;
+    bottom: -15px;
+    }
+    input {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    transition: 0.5s;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    background-color: transparent;
+    }
+    input:focus {
+    outline: none;
+    border-bottom: 1px solid #28a2a2;
+    }
+    .animation .label-mueve {
+    transform: translateY(-55px);
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    .animation-color .label-mueve {
+    color: #28a2a2;
+    }
+    .has-error{
+    border-bottom:1px solid #cc0000;
+    }
+    span#textError{
+    left: 20px;
+    font-size: 0.8rem;
+    color: red;
+    }
+    .modal-footer{
+    justify-content: space-between;
+    }
