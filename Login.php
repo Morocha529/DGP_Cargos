@@ -42,7 +42,7 @@ if ( isset( $_SESSION['email'] ) ) {
                        <p>Universidad Nacional de Salta</p>
                     </div>
                 </div>
-                 <form id ="form_login" action="" method="POST" autocomplete="" class="mt-4">
+                 <form id ="form_login" action="" method="POST" autocomplete="on" class="mt-4">
                 
                     <div class="input-container">
                         <input type="text" id="email" class="login-input" value="" required autofocus>

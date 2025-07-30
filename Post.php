@@ -34,11 +34,11 @@ if ( isset( $_SESSION['email'] ) ) {
     <div class="container-fluid">
       <div class="row vertical-center">
           <!--<form id ="form_login" action="" method="POST" autocomplete="" class="col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-3 col-md-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">-->
-          <form id ="form_login" action="" method="POST" autocomplete="" class ="col-lg-2" >
+          <form id ="form_login" action="" method="POST" class ="col-lg-2" >
             <h1>Sign In</h1>
             <p>
               <!--<label class="sr-only" for="">Email Address</label>-->
-              <input id="email" class="form-control" type="email" placeholder="Email Address" required autofocus>
+              <input id="email" class="form-control" type="email" placeholder="Email Address" autocomplete="email" required autofocus>
             </p>
             <p>
               <!--<label class="sr-only" for="">Password</label>-->
